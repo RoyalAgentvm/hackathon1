@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roy Muraya | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Combined Photo & Hero Section -->
+    <section id="hero">
+        <div class="container">
+        <div class="hero-wrapper">
+            <!-- Profile Photo -->
+            <div class="profile-card">
+            <img src="profile.jpg" alt="Your Name" class="profile-photo">
+            <a href="mailto:your@email.com?subject=Profile Photo Update" class="btn photo-btn">
+                <i class="fas fa-camera"></i> Update Photo
+            </a>
+            </div>
+            
+            <!-- Hero Content -->
+            <div class="hero-content">
+            <h1>Roy Muraya </h1>
+            <p class="tagline">Full Stack Developer & Tech Enthusiast</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn primary-btn">Get in Touch</a>
+                <a href="#projects" class="btn secondary-btn">View Work</a>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+            </div>
+            <p>Passionate developer with 3+ years of experience building web applications. I specialize in creating efficient, scalable solutions with clean code. My journey in tech began when I built my first website at 15, and I've been hooked ever since.</p>
+            <p>When I'm not coding, you can find me contributing to open-source projects, mentoring junior developers, or exploring new technologies.</p>
+            <a href="roy-muraya-githaiga.pdf" class="btn" download>Download CV</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-js-square fa-3x"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-react fa-3x"></i>
+                    <h3>React</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-node-js fa-3x"></i>
+                    <h3>Node.js</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-python fa-3x"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database fa-3x"></i>
+                    <h3>SQL</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git-alt fa-3x"></i>
+                    <h3>Git</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Python</h3>
+                        <p>Using Python in Innovating ways</p>
+                        <a href="https://github.com/RoyalAgentvm/plp" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Web Development</h3>
+                        <p>Using programming languages such as HTML, CSS to create amazing websites.</p>
+                        <a href="https://github.com/PLP-WebTechnologies/feb-2025-introduction-to-html-5-RoyalAgentvm" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>SQL</h3>
+                        <p>Learning database Management and how to fully implement it in a project</p>
+                        <a href="https://github.com/PLP-Database-Design/wk-2a-RoyalAgentvm" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Let's Connect</h2>
+            </div>
+            <form class="contact-form" netlify>
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
